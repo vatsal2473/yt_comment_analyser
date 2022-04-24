@@ -1,0 +1,45 @@
+.cards_cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:  wrap;
+  justify-content: center;
+}
+
+.card_title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+.card_btn {
+  outline: none;
+  border: 2px solid #078345;
+  border-radius: 5px;
+  background: none;
+  font-size: 1rem;
+  padding: 8px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  align-self: center;
+}
+
+.card_btn:hover {
+  background-color: #0361328c;
+}
+
+.card_btn img {
+  width: 25px;
+  height: 25px;
+}
+
+.cmt {
+  font-size: 16px;
+  font-weight: 100;
+  text-align: left;
+  margin: 5px 20px;
+}
